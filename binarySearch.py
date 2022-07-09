@@ -23,8 +23,10 @@ class Solution:
 
 test_cases(
     func=Solution().binarySearch,
-    cases=[
-        (([1, 5, 6, 9, 15, 22, 28], 1), 0),
-        (([2, 3, 5, 7, 9, 13, 14, 20, 23], 23), 8),
-    ]
+    keyses= ['nums', 'to_find'],
+    params=[
+        ([1, 5, 6, 9, 15, 22, 28], 1),
+        ([2, 3, 5, 7, 9, 13, 14, 20, 23], 23),
+    ],
+    answers = [0, 8]
 )

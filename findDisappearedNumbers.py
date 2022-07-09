@@ -1,4 +1,5 @@
 import enum
+from re import A
 from typing import List
 
 from test_cases import test_cases
@@ -41,10 +42,12 @@ class Solution:
 
 test_cases(
     func=Solution().findDisappearedNumbers,
-    cases=[
+    keyses=['nums'],
+    params=[
         # ([4,3,2,7,8,2,3,1], [5, 6]),
         # ([1, 1], [2]),
-        ([5,4,6,7,9,3,10,9,5,6], [1,2,8]),
-        ([9,9,4,10,8,5,2,2,7,7], [1, 3, 6])
-    ]
+        ([5,4,6,7,9,3,10,9,5,6], ),
+        ([9,9,4,10,8,5,2,2,7,7], )
+    ],
+    answers=[[1, 2, 8], [1, 3, 6]]
 )

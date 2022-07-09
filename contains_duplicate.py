@@ -23,9 +23,11 @@ class Solution:
 
 test_cases(
     func=Solution().containsDuplicate,
-    cases=[
-        ([1,2,3,1], True),
-        ([1,2,3,4], False),
-        ([1,1,1,3,3,4,3,2,4,2], True)
-    ]
+    keyses=['nums'],
+    params=[
+        ([1,2,3,1], ),
+        ([1,2,3,4], ),
+        ([1,1,1,3,3,4,3,2,4,2], )
+    ],
+    answers=[True, False, True]
 )

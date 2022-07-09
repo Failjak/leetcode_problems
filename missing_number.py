@@ -22,9 +22,11 @@ class Solution:
 
 test_cases(
     func=Solution().missingNumber,
-    cases=(
-        ([3,0,1], 2),
-        ([0,1], 2),
-        ([9,6,4,2,3,5,7,0,1], 8)
-    )
+    keyses=['nums'],
+    params=(
+        ([3,0,1], ),
+        ([0,1], ),
+        ([9,6,4,2,3,5,7,0,1], )
+    ),
+    answers=[2, 2, 8]
 )

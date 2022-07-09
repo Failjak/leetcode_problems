@@ -19,9 +19,11 @@ class Solution:
 
 test_cases(
     func=Solution().singleNumber,
-    cases=[
-        ([2,2,1], 1),
-        ([4,1,2,1,2], 4),
-        ([1], 1)
-    ]
+    keyses=['nums'],
+    params=[
+        ([2, 2, 1], ),
+        ([4, 1, 2, 1, 2], ),
+        ([1], )
+    ],
+    answers=[1, 4, 1]
 )
