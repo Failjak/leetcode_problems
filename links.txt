@@ -1,2 +1,4 @@
+Leetcode patterns - https://seanprashad.com/leetcode-patterns/
+
 Python-wiki about complexity: https://wiki.python.org/moin/TimeComplexity
 Hash-table: https://en.wikipedia.org/wiki/Hash_table
